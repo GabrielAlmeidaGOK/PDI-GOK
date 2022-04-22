@@ -88,7 +88,7 @@ function AuthScreen() {
 
       <ImageView source={require('../../assets/images/title.png')} />
 
-      <TextTitle>Buscar funcionou</TextTitle>
+      <TextTitle>Buscar usuários</TextTitle>
       <SubTitle>Crie sua conta através do seu usuário
         {'\n'}do GitHub
       </SubTitle>

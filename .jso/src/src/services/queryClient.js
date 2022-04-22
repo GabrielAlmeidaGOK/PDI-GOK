@@ -1,0 +1,1 @@
+Object.defineProperty(e,"__esModule",{value:!0}),e.queryClient=void 0;var n=new(r(d[0]).QueryClient);e.queryClient=n
