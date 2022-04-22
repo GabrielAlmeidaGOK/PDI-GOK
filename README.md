@@ -1,4 +1,4 @@
-# PDI-GOK :rocket: :ballet_shoes:
+<p align="center"> PDI-GOK :rocket: :ballet_shoes: </p>
 
 - [x] Sentry
 - [x] Firebase/Crashlytics
