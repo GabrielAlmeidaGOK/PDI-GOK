@@ -233,12 +233,12 @@ android {
             keyAlias System.console().readLine("\nAlias: ")
             keyPassword System.console().readLine("\Alias password: ")
         }
-        debug {
+       /*  debug {
             storeFile file('debug.keystore')
             storePassword 'android'
             keyAlias 'androiddebugkey'
             keyPassword 'android'
-        }
+        } */
     }
     buildTypes {
         debug {
