@@ -229,9 +229,9 @@ android {
     signingConfigs {
         release {
             storeFile file('your_key_name.keystore')
-            storePassword 'your_key_store_password'
-            keyAlias 'your_key_alias'
-            keyPassword 'your_key_file_alias_password'
+            storePassword System.console().readLine("\nKeystore password:")
+            keyAlias System.console().readLine("\nAlias: ")
+            keyPassword System.console().readLine("\Alias password: ")
         }
         debug {
             storeFile file('debug.keystore')
