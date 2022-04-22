@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353648878376",
+    "project_id": "glass-carver-332412",
+    "storage_bucket": "glass-carver-332412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353648878376:android:1b1969d838c595c492a61d",
+        "android_client_info": {
+          "package_name": "com.pdigok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353648878376-9bo9tafu1q8ojku8nuvplp4vf8d1ra1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbZ8_nhoOryGzLDbWrtoqft2BKMQeDODs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353648878376-9bo9tafu1q8ojku8nuvplp4vf8d1ra1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
