@@ -1,0 +1,625 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f78609a87a6dac1591e71e20e6615ad2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0189582e7cfe1564115c2241d7c17f1e/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-community_masked-view] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:appcenter] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:appcenter-analytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:appcenter-crashes] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-gesture-handler] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/cf3ac2e256eb45288a9cd197f1f364e0/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e4708cbc94b3c032fe078b3663190d2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/almeidadeveloper/.gradle/caches/transforms-3/25d03502dad76a37ea5ac52770fafc79/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8ab72b6a1fe889383840e5af912b0925/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/6e7ec4cfb4113e4ca93690382f0c628a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8bd9f85a9b9f1bd7160387c524509af8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dbb8e3ccf726c1967c3ecfbb0bab7d2d/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c4c52f4b1739342ac887317131f9f9eb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b33dadbcf160adc1c1bbc049f905afeb/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/2f0d8efd15d77632d44a14a714a7de45/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8884c44fc5dc6c83efa6b86f0574b9ca/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f06c1801969458b01c60ee38eca72e3c/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e3628d46d0b15ac4357248f0eba609c9/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/54c3c32ce0ee0981f71060717eda0f27/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5f4649edc360e9ead330bc3e428974c9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1944174de3c5f0d8b0f5f4b01d8426e3/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3ceec50dd66ddb76e3ca4c23d1310b5a/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cd8f2ee984577fa8b2f1ed93447ea064/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9653ae35ce73bf280d5ad65cc40c3c17/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0da2e33320a4848b2b496597996f66c0/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:23:1-41:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3aea8debe096361aa7ba802f2c8de667/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c2f4af9727f7b9ba15c6c56f746d2327/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ab3b0c9db39ed3be7aee0e4da03bb39e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/7ce6aae8a6fadc04b707bd0952433004/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a4a78ca3ccc02a4fc3a54fde33d3580b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b721dac7f65434a91132145eda975176/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b2cc40507606495268971c641ac7646/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0c4c3d9740ee4b7238c1adf7c2055b7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/f35962d11b8fb8d258a27d7b60cd1215/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/d7a62e451221b39f123d136542f93763/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dc6737fc72106dbc861aea86fa218f56/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/3f10de7c3512264f42e8d2972fb2842a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/2da984ba512f45b4866c1501cfa27252/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/almeidadeveloper/.gradle/caches/transforms-3/fdc99ab546c4afca9c38e83fef5f1a0a/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/52e0a25819bb69bd25d9aeb1b62e5547/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4443894e2e7c93198ebd2ad8bdf383e9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/49b5cdf2802669c2dfa4d7a8323b8431/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fe9c1134a494173fc317e7ef566f0b37/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/17a3ac036159ecb6069181fb98483572/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.sentry:sentry-android:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0d46447c7aff04bad271bed79327968/transformed/jetified-sentry-android-5.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.sentry:sentry-android-ndk:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/843e33d9f144991247699f218f96af6f/transformed/jetified-sentry-android-ndk-5.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a2e5732a854d74d98583485a11bb9028/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ee1fc4c3d706663b21b37ceacf7f98bb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/956a6cbf3009cdb5c74a666b201a1f9b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/7e914f11f57dab48dd08ca521bd1a9e7/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b9914466ee34d773a120a9fe4ef2fe0/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/d89cd8acbff0307efd096799858d3f77/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fa8bd208636756570557843ba90ac8a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/ff95f1b4ed58cf8b36d918d1286ef699/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/518ecdbd736df88f4ac1855d613603ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/b17b6c2d485c1524467609328e3f3649/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f9c8ec145b503cb0de8e185a86f5a8fa/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cbab57425850565712f7caeba340e0dd/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0237db01c19bf40f6846fba38c15c278/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a210f9a11056d37c707d0526ecdaa528/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:4.4.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/83f616e43fef24df459d235488e962d1/transformed/jetified-appcenter-react-native-4.4.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/1501f523f78f7809c583ff54d8f6564f/transformed/jetified-appcenter-analytics-4.4.2/AndroidManifest.xml:6:1-15:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/fa3a2b02fcb310433121676601db38b8/transformed/jetified-appcenter-crashes-4.4.2/AndroidManifest.xml:6:1-15:12
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:6:1-18:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e2b1d303872d1d1a71f831cbf150ff2/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ccb6774048d08b9d6d24cc194b14fb89/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:2:3-23
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:2:3-23
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:9:5-67
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:9:5-67
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:15:5-67
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-21:19
+MERGED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-21:19
+MERGED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-16:19
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-16:19
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/cf3ac2e256eb45288a9cd197f1f364e0/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/cf3ac2e256eb45288a9cd197f1f364e0/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/54c3c32ce0ee0981f71060717eda0f27/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/54c3c32ce0ee0981f71060717eda0f27/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:31:5-39:19
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:31:5-39:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/3f10de7c3512264f42e8d2972fb2842a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/3f10de7c3512264f42e8d2972fb2842a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/2da984ba512f45b4866c1501cfa27252/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/2da984ba512f45b4866c1501cfa27252/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:11:5-23:19
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:11:5-23:19
+MERGED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/ff95f1b4ed58cf8b36d918d1286ef699/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/ff95f1b4ed58cf8b36d918d1286ef699/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.pdigok.MainActivity
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:13:7-24:18
+	android:label
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:exported
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:19:9-32
+	android:configChanges
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:16:9-118
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml:22:23-70
+uses-sdk
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f78609a87a6dac1591e71e20e6615ad2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f78609a87a6dac1591e71e20e6615ad2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0189582e7cfe1564115c2241d7c17f1e/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0189582e7cfe1564115c2241d7c17f1e/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-community_masked-view] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-analytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-analytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-crashes] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-crashes] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/cf3ac2e256eb45288a9cd197f1f364e0/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/cf3ac2e256eb45288a9cd197f1f364e0/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e4708cbc94b3c032fe078b3663190d2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e4708cbc94b3c032fe078b3663190d2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] /Users/almeidadeveloper/.gradle/caches/transforms-3/25d03502dad76a37ea5ac52770fafc79/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/almeidadeveloper/.gradle/caches/transforms-3/25d03502dad76a37ea5ac52770fafc79/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8ab72b6a1fe889383840e5af912b0925/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8ab72b6a1fe889383840e5af912b0925/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/6e7ec4cfb4113e4ca93690382f0c628a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/6e7ec4cfb4113e4ca93690382f0c628a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8bd9f85a9b9f1bd7160387c524509af8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8bd9f85a9b9f1bd7160387c524509af8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dbb8e3ccf726c1967c3ecfbb0bab7d2d/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dbb8e3ccf726c1967c3ecfbb0bab7d2d/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c4c52f4b1739342ac887317131f9f9eb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c4c52f4b1739342ac887317131f9f9eb/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b33dadbcf160adc1c1bbc049f905afeb/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b33dadbcf160adc1c1bbc049f905afeb/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/2f0d8efd15d77632d44a14a714a7de45/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/2f0d8efd15d77632d44a14a714a7de45/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8884c44fc5dc6c83efa6b86f0574b9ca/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8884c44fc5dc6c83efa6b86f0574b9ca/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f06c1801969458b01c60ee38eca72e3c/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f06c1801969458b01c60ee38eca72e3c/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e3628d46d0b15ac4357248f0eba609c9/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/e3628d46d0b15ac4357248f0eba609c9/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/54c3c32ce0ee0981f71060717eda0f27/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/54c3c32ce0ee0981f71060717eda0f27/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5f4649edc360e9ead330bc3e428974c9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5f4649edc360e9ead330bc3e428974c9/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1944174de3c5f0d8b0f5f4b01d8426e3/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1944174de3c5f0d8b0f5f4b01d8426e3/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3ceec50dd66ddb76e3ca4c23d1310b5a/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3ceec50dd66ddb76e3ca4c23d1310b5a/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cd8f2ee984577fa8b2f1ed93447ea064/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cd8f2ee984577fa8b2f1ed93447ea064/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9653ae35ce73bf280d5ad65cc40c3c17/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9653ae35ce73bf280d5ad65cc40c3c17/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0da2e33320a4848b2b496597996f66c0/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0da2e33320a4848b2b496597996f66c0/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:27:5-29:41
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:27:5-29:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3aea8debe096361aa7ba802f2c8de667/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/3aea8debe096361aa7ba802f2c8de667/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c2f4af9727f7b9ba15c6c56f746d2327/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/c2f4af9727f7b9ba15c6c56f746d2327/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ab3b0c9db39ed3be7aee0e4da03bb39e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ab3b0c9db39ed3be7aee0e4da03bb39e/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/7ce6aae8a6fadc04b707bd0952433004/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/7ce6aae8a6fadc04b707bd0952433004/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a4a78ca3ccc02a4fc3a54fde33d3580b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a4a78ca3ccc02a4fc3a54fde33d3580b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b721dac7f65434a91132145eda975176/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b721dac7f65434a91132145eda975176/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b2cc40507606495268971c641ac7646/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b2cc40507606495268971c641ac7646/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0c4c3d9740ee4b7238c1adf7c2055b7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0c4c3d9740ee4b7238c1adf7c2055b7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/f35962d11b8fb8d258a27d7b60cd1215/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/f35962d11b8fb8d258a27d7b60cd1215/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/d7a62e451221b39f123d136542f93763/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/d7a62e451221b39f123d136542f93763/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dc6737fc72106dbc861aea86fa218f56/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dc6737fc72106dbc861aea86fa218f56/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/3f10de7c3512264f42e8d2972fb2842a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/3f10de7c3512264f42e8d2972fb2842a/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/2da984ba512f45b4866c1501cfa27252/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/2da984ba512f45b4866c1501cfa27252/transformed/jetified-firebase-measurement-connector-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/almeidadeveloper/.gradle/caches/transforms-3/fdc99ab546c4afca9c38e83fef5f1a0a/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/almeidadeveloper/.gradle/caches/transforms-3/fdc99ab546c4afca9c38e83fef5f1a0a/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/52e0a25819bb69bd25d9aeb1b62e5547/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/52e0a25819bb69bd25d9aeb1b62e5547/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4443894e2e7c93198ebd2ad8bdf383e9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4443894e2e7c93198ebd2ad8bdf383e9/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/49b5cdf2802669c2dfa4d7a8323b8431/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/49b5cdf2802669c2dfa4d7a8323b8431/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fe9c1134a494173fc317e7ef566f0b37/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fe9c1134a494173fc317e7ef566f0b37/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/17a3ac036159ecb6069181fb98483572/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/17a3ac036159ecb6069181fb98483572/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.sentry:sentry-android:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0d46447c7aff04bad271bed79327968/transformed/jetified-sentry-android-5.7.0/AndroidManifest.xml:6:5-9:57
+MERGED from [io.sentry:sentry-android:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0d46447c7aff04bad271bed79327968/transformed/jetified-sentry-android-5.7.0/AndroidManifest.xml:6:5-9:57
+MERGED from [io.sentry:sentry-android-ndk:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/843e33d9f144991247699f218f96af6f/transformed/jetified-sentry-android-ndk-5.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-ndk:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/843e33d9f144991247699f218f96af6f/transformed/jetified-sentry-android-ndk-5.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a2e5732a854d74d98583485a11bb9028/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a2e5732a854d74d98583485a11bb9028/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ee1fc4c3d706663b21b37ceacf7f98bb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ee1fc4c3d706663b21b37ceacf7f98bb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/956a6cbf3009cdb5c74a666b201a1f9b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/956a6cbf3009cdb5c74a666b201a1f9b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/fbcf218ca73f1ab63fb3d8389b675340/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/7e914f11f57dab48dd08ca521bd1a9e7/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/7e914f11f57dab48dd08ca521bd1a9e7/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b9914466ee34d773a120a9fe4ef2fe0/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/9b9914466ee34d773a120a9fe4ef2fe0/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/d89cd8acbff0307efd096799858d3f77/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/d89cd8acbff0307efd096799858d3f77/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fa8bd208636756570557843ba90ac8a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fa8bd208636756570557843ba90ac8a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/ff95f1b4ed58cf8b36d918d1286ef699/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/ff95f1b4ed58cf8b36d918d1286ef699/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/518ecdbd736df88f4ac1855d613603ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/518ecdbd736df88f4ac1855d613603ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/b17b6c2d485c1524467609328e3f3649/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/b17b6c2d485c1524467609328e3f3649/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f9c8ec145b503cb0de8e185a86f5a8fa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f9c8ec145b503cb0de8e185a86f5a8fa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cbab57425850565712f7caeba340e0dd/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/cbab57425850565712f7caeba340e0dd/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0237db01c19bf40f6846fba38c15c278/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/0237db01c19bf40f6846fba38c15c278/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a210f9a11056d37c707d0526ecdaa528/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/a210f9a11056d37c707d0526ecdaa528/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:4.4.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/83f616e43fef24df459d235488e962d1/transformed/jetified-appcenter-react-native-4.4.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:4.4.3] /Users/almeidadeveloper/.gradle/caches/transforms-3/83f616e43fef24df459d235488e962d1/transformed/jetified-appcenter-react-native-4.4.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/1501f523f78f7809c583ff54d8f6564f/transformed/jetified-appcenter-analytics-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/1501f523f78f7809c583ff54d8f6564f/transformed/jetified-appcenter-analytics-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/fa3a2b02fcb310433121676601db38b8/transformed/jetified-appcenter-crashes-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/fa3a2b02fcb310433121676601db38b8/transformed/jetified-appcenter-crashes-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e2b1d303872d1d1a71f831cbf150ff2/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e2b1d303872d1d1a71f831cbf150ff2/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ccb6774048d08b9d6d24cc194b14fb89/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/ccb6774048d08b9d6d24cc194b14fb89/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [io.sentry:sentry-android:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/f0d46447c7aff04bad271bed79327968/transformed/jetified-sentry-android-5.7.0/AndroidManifest.xml:9:9-54
+	android:targetSdkVersion
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:11:9-111
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
+MERGED from [:react-native-code-push] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
+	android:exported
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/dd3ebd67c6623e09dc57a9988fec8078/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+provider#io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider
+ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+	android:authorities
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+	android:exported
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+	android:name
+		ADDED from [:react-native-firebase_crashlytics] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:32:9-38:19
+MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:32:9-38:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:34:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:16:5-79
+MERGED from [com.microsoft.appcenter:appcenter:4.4.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/94048a44220bbdcced7d8c6269b64597/transformed/jetified-appcenter-4.4.2/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+meta-data#io.sentry.auto-init
+ADDED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [:sentry_react-native] /Users/almeidadeveloper/Documents/GOK-PROJECTS/RN/PDI-GOK/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/c8561d76a923d893b0761fde145e364c/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:36:17-122
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/almeidadeveloper/.gradle/caches/transforms-3/dea2a2d3160c7c1036fdbdde5be0fedc/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:19:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/f6d080967ba0c2bd91646522793ce27a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/almeidadeveloper/.gradle/caches/transforms-3/c7b46abf34980f02acc2a5ee40ae33f9/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.1.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/5fecb103d974383a2e8119c7e2013da1/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/almeidadeveloper/.gradle/caches/transforms-3/4b0763f4c0f9d14c9369c68916955fd7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/00672fd9b5640a379b5ac4dd9749915d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/4fe79b797973e433dca358d54c150cd7/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/b0351a99c7da8946709fd68410b967ed/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#io.sentry.android.core.SentryInitProvider
+ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:14:9-17:40
+	android:authorities
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:16:13-70
+	android:exported
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:15:13-69
+provider#io.sentry.android.core.SentryPerformanceProvider
+ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:18:9-22:39
+	android:authorities
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:20:13-77
+	android:exported
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from [io.sentry:sentry-android-core:5.7.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/8e8b74c12ed3a12d27bd13d519c65e93/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:19:13-76
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/almeidadeveloper/.gradle/caches/transforms-3/1d41f1039ff9bd81e45f8246076e09af/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
