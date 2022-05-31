@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Alert } from 'react-native'
 
+//STYLES
 import {
     Container,
     Header,
@@ -19,7 +21,6 @@ import {
     IconAtr,
     Atributes
 } from './style';
-import { Alert } from 'react-native'
 
 //NAVIGATIONS
 import { useNavigation } from '@react-navigation/native';
@@ -27,8 +28,8 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../RootStack';
 
 //API
-import axios from 'axios'
 import api from '../../services/backend.api'
+import { useQuery } from 'react-query'
 
 //OBSERVABILITY
 import crashlytics from '@react-native-firebase/crashlytics';
@@ -39,19 +40,19 @@ type repoScreenProps = StackNavigationProp<RootStackParamList, 'Repositories'>;
 function Repositories() {
 
     const navigation = useNavigation<repoScreenProps>();
-    const [usersData, setUsersData] = useState([])
     const [refresh, setRefresh] = useState(false)
 
-    useEffect(() => {
-        const getUser = async () => {
-            const CancelToken = axios.CancelToken;
-            const source = CancelToken.source();
-            const response = await api.get(`getAll`, { cancelToken: source.token })
+    const fetchUsers = async () => {
+        const res = await fetch('https://backend-pdi.herokuapp.com/api/getAll')
+        return res.json();
+      };
+    
+    const { data } = useQuery("users", fetchUsers);
 
-            setUsersData(response.data)
-        };
-        getUser()
-    }, [usersData])
+    useEffect(() => {
+          fetchUsers()
+    }, [data])
+
 
     async function deleteUser(_id: String) {
         try {
@@ -90,7 +91,7 @@ function Repositories() {
             </Header>
 
             <List
-                data={usersData}
+                data={data}
                 keyExtractor={(user: any) => user.login}
                 renderItem={({ item, index }: any) => (
 

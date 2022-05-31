@@ -22,6 +22,7 @@
     "appcenter-analytics": "4.4.3",
     "appcenter-crashes": "4.4.3",
     "axios": "^0.26.1",
+    "jetifier": "^2.0.0",
     "obfuscator-io-metro-plugin": "^2.0.0",
     "react": "17.0.2",
     "react-native": "0.68.1",

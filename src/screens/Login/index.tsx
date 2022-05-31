@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+//STYLES
 import {
   Container,
   ImageView,
@@ -24,7 +25,6 @@ import { RootStackParamList } from '../RootStack';
 //API
 import api from '../../services/api'
 import backend from '../../services/backend.api'
-import axios from 'axios'
 
 //OBSERVABILITY
 import crashlytics from '@react-native-firebase/crashlytics';
@@ -51,15 +51,13 @@ function AuthScreen() {
     crashlytics().log('App mounted.');
   }, []);
 
-
   const getUser = async (newUser: any) => {
     try {
-      const CancelToken = axios.CancelToken;
-      const source = CancelToken.source();
-      const response = await api.get(`users/${newUser}`, { cancelToken: source.token })
+      const response = await api.get(`users/${newUser}`)
       setData(response.data)
       saveData()
-    } catch (err: any) {
+
+    }catch (err: any) {
       crashlytics().recordError(err);
       Sentry.captureException(err);
     }
@@ -75,8 +73,10 @@ function AuthScreen() {
         location: data.location,
         public_repos: data.public_repos,
       })
+
       navigation.navigate('Repositories')
       crashlytics().log(`User has signed in`);
+
     } catch (err: any) {
       crashlytics().recordError(err);
       Sentry.captureException(err)

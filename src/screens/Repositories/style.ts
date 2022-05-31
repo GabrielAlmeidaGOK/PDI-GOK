@@ -21,9 +21,9 @@ export const Header = styled.View`
 `;
 
 export const Icon = styled.Image`
-    width: 90px;
+    width: 120px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 10px;
 `
 
