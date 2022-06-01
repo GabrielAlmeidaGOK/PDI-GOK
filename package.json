@@ -28,6 +28,7 @@
     "react-native-code-push": "^7.0.4",
     "react-native-dotenv": "^3.3.1",
     "react-native-gesture-handler": "~2.1.0",
+    "react-native-gradle-plugin": "^0.0.7",
     "react-native-safe-area-context": "3.3.2",
     "react-native-web": "0.17.1",
     "react-query": "^3.34.19",
