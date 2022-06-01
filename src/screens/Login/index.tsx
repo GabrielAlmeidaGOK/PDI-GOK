@@ -11,6 +11,7 @@ import {
   ImageIcon,
   Button,
   TitleButton,
+  ViewFooter,
   TextUsers,
   TextFooter,
   ButtonCrash,
@@ -57,7 +58,7 @@ function AuthScreen() {
       setData(response.data)
       saveData()
 
-    }catch (err: any) {
+    } catch (err: any) {
       crashlytics().recordError(err);
       Sentry.captureException(err);
     }
@@ -84,42 +85,46 @@ function AuthScreen() {
   }
 
   return (
+
     <Container>
 
-      <ImageView source={require('../../assets/images/title.png')} />
+        <ImageView source={require('../../assets/images/title.png')} />
 
-      <TextTitle>Buscar usuários</TextTitle>
-      <SubTitle>Crie sua conta através do seu usuário
-        {'\n'}do GitHub
-      </SubTitle>
+        <TextTitle>Buscar usuários</TextTitle>
+        <SubTitle>Crie sua conta através do seu usuário
+          {'\n'}do GitHub
+        </SubTitle>
 
-      <ViewInput>
-        <ImageIcon source={require('../../assets/images/user_input.png')} />
-        <Input
-          value={newUser}
-          onChangeText={(text: any) => setNewUser(text)}
-          placeholder='@username'
-          placeholderTextColor="#7E7E7E"
-        />
-      </ViewInput>
+        <ViewInput>
+          <ImageIcon source={require('../../assets/images/user_input.png')} />
+          <Input
+            value={newUser}
+            onChangeText={(text: any) => setNewUser(text)}
+            placeholder='@username'
+            placeholderTextColor="#7E7E7E"
+          />
+        </ViewInput>
 
-      <Button onPress={() => getUser(newUser)}>
-        <TitleButton>Cadastrar</TitleButton>
-      </Button>
+        <Button onPress={() => getUser(newUser)}>
+          <TitleButton>Cadastrar</TitleButton>
+        </Button>
 
-      <ButtonCrash onPress={() => Sentry.nativeCrash()}>
-        <TitleButton>Sentry Crash</TitleButton>
-      </ButtonCrash>
+        <ButtonCrash onPress={() => Sentry.nativeCrash()}>
+          <TitleButton>Sentry Crash</TitleButton>
+        </ButtonCrash>
 
-      <ButtonCrashlytics onPress={() => crashlytics().crash()}>
-        <TitleButton>Crashlytics</TitleButton>
-      </ButtonCrashlytics>
+        <ButtonCrashlytics onPress={() => crashlytics().crash()}>
+          <TitleButton>Crashlytics</TitleButton>
+        </ButtonCrashlytics>
 
+      <ViewFooter>
+        <TextUsers onPress={() => navigation.navigate('Repositories')}>Ver cadastrados</TextUsers>
+        <TextFooter>Termos de política e privacidade</TextFooter>
+      </ViewFooter>
 
-      <TextUsers onPress={() => navigation.navigate('Repositories')}>Ver cadastrados</TextUsers>
-      <TextFooter>Termos de política e privacidade</TextFooter>
 
     </Container>
+
   );
 }
 

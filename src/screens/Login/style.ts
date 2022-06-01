@@ -63,6 +63,11 @@ export const Button = styled.TouchableOpacity`
     border-radius: 100px;
     justify-content: center;
 `
+export const ViewFooter = styled.View`
+    position: absolute;
+    bottom: 0;
+    align-self: center
+`
 
 export const TitleButton = styled.Text`
     font-size: 18px;
